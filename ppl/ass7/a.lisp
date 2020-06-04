@@ -1,0 +1,6 @@
+(defparameter mylist (list 3 6 2 5 8))
+(defparameter num (read))
+(format t "Enter a number")
+(terpri)
+(write (nth (- num 1) mylist))
+(terpri)
